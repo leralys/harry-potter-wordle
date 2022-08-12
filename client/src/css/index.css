@@ -1,0 +1,36 @@
+/* default colors */
+:root {
+  --color-dark-blue: #05123f;
+  --color-white: #ffffff;
+  --color-gold: #eeba30;
+}
+
+/* css resets */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  overflow-x: hidden;
+  background-color: var(--color-dark-blue);
+  color: var(--color-white);
+  font-family: 'Roboto', sans-serif;
+}
+
+/* default ul styles */
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  color: inherit;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+  cursor: pointer;
+}
